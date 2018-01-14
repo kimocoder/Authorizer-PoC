@@ -55,10 +55,10 @@ public class Log {
     // debug
     public void debug(String msg) {
 
-        this._(Level.Debug, msg);
+        this.helper(Level.Debug, msg);
     }
 
-    public void _(Level level, String msg) {
+    public void helper(Level level, String msg) {
 
         LogEntry entry = new LogEntry();
         entry.time = dateFormat.format(new Date());

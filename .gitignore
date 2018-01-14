@@ -37,3 +37,8 @@ captures/
 
 # Keystore files
 *.jks
+
+# idea project files
+.idea/.name
+.idea/*.xml
+.idea/dictionaries/*.xml
